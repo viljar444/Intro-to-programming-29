@@ -38,7 +38,7 @@ public class Operators {
 
         System.out.println("19 % 5 = " + 19 % 5);
         isNumberEven(7);
-        isNumberEven2(6);
+        isNumberOdd(6);
     }
     // 2 - true
     // 7 - odd number - result false
@@ -53,7 +53,7 @@ public class Operators {
         }
     }
 
-    public static boolean isNumberEven2(int numberToCheck) {
+    public static boolean isNumberOdd(int numberToCheck) {
         System.out.println("Number to check: " + numberToCheck);
         if ((numberToCheck % 2) != 0) {
             System.out.println("Even");
