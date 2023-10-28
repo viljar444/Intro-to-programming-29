@@ -23,8 +23,27 @@ public class JavaLoops {
         System.out.println("Outside while control is: " + control);
 
         // infinite for loop
-        for(;;) {
+//        for(;;) {
+//
+//        }
 
+        for (int i = 100; i > 0; i--) {
+            System.out.println("Current value of i: " + i);
+            if (i == 90) {
+                // exit the loop
+                break;
+            }
+        }
+
+        System.out.println("Printing stars");
+        // *
+        // **
+        // ***
+        // print 10 lines first
+        String stars = "*";
+        for (int i = 0; i < 11; i++) {
+            System.out.println(stars);
+            stars = stars + "*";
         }
     }
 }
